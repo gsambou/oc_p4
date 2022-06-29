@@ -188,7 +188,6 @@ main {
 .modal-body {
 	padding: 15px 8%;
 	margin: 15px auto;
-	display: none;
 }
 
 .modal-success {
@@ -202,6 +201,7 @@ main {
 	flex-direction: column;
 	align-content: center;
 	justify-content: space-between;
+	display: none;
 }
 
 .modal-success-text {
@@ -219,13 +219,8 @@ main {
 	color: #ffffff;
 }
 
-.btn-close {
-	position: absolute;
-	left: 0%;
-	right: 0%;
-	top: 0%;
-	bottom: 0%;
-
+#btn-close {
+	margin-top: 200px;
 	background: #fe142f;
 	border-radius: 8px;
 }
