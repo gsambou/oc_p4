@@ -568,3 +568,16 @@ footer {
 		opacity: 1;
 	}
 }
+
+@media screen and (max-width: 425px) {
+	.hero-section {
+		min-width: 100%;
+	}
+	.hero-headline {
+		font-size: 3.5rem;
+		white-space: normal;
+	}
+	.hero-content {
+		min-width: 100%;
+	}
+}
